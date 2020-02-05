@@ -1,3 +1,3 @@
 [submodule "pages/gbgwcalculator"]
 	path = pages/gbgwcalculator
-	url = git@github.com:rmkane/gbgwcalculator.github.io.git
+	url = https://github.com/rmkane/gbgwcalculator.github.io.git
