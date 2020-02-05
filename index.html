@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <style type="text/css">
       * {
-        color: #fff;
+        color: #EEE;
         box-sizing: border-box;
         font-family: 'Metrophobic', Arial, serif;
       }
 
       body {
-        background-color: #323232;
+        background-color: #222;
         padding: 8px;
       }
 
@@ -22,7 +22,7 @@
       section,
       footer {
         text-align: center;
-        background-color: #666666;
+        background-color: #474747;
         padding: 8px;
       }
 
@@ -30,6 +30,12 @@
       footer {
         width: 100%;
         padding: 8px;
+      }
+      
+      nav,
+      aside,
+      section {
+        margin-bottom: 8px;  
       }
 
       header {
@@ -71,19 +77,28 @@
         padding: 0;
         margin-bottom: 0;
       }
-
-      nav li {
-        display: inline-block;
-        margin: 0 0 0 8px;
-        width: 100%;
-      }
-
-      nav li:first-child {
-        margin-left: 0;
+      
+      nav li,
+      aside li {
+        margin-bottom: 0.5em;
       }
 
       footer {
         clear: both;
+      }
+      
+      a {
+        text-decoration: none;
+        color: #AEF; 
+      }
+    
+      a:hover {
+        text-decoration: underline;
+        color: #DEF;
+      }
+
+      a:active {
+        color: #FFF; 
       }
     </style>
   </head>
