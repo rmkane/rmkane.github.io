@@ -1,3 +1,6 @@
 [submodule "pages/gbgwcalculator"]
 	path = pages/gbgwcalculator
 	url = https://github.com/rmkane/gbgwcalculator.github.io.git
+[submodule "pages/deobfuscate-js"]
+	path = pages/deobfuscate-js
+	url = https://github.com/rmkane/deobfuscate-js.git
