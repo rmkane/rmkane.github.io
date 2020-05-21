@@ -4,3 +4,6 @@
 [submodule "pages/deobfuscate-js"]
 	path = pages/deobfuscate-js
 	url = https://github.com/rmkane/deobfuscate-js.git
+[submodule "pages/d3-wiki-sets"]
+	path = pages/d3-wiki-sets
+	url = git@github.com:rmkane/d3-wiki-sets.git
